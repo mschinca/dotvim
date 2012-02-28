@@ -235,6 +235,8 @@ colorscheme ir_black
 
 " Tell CSApprox to use the Konsole palette
 let g:CSApprox_konsole=1
+" Silent CSApprox if it cannot load
+g:CSApprox_verbose_level
 
 " Show syntax highlighting groups for word under cursor
 nmap <C-S-P> :call <SID>SynStack()<CR>
